@@ -1,0 +1,20 @@
+服务器：47.106.117.232
+登陆账号密码： root    Lz930808
+
+
+
+
+
+
+
+
+
+操作命令：
+查看内核版本：uname -r
+
+重启nginx 
+docker exec -it xy_nginx nginx -s reload
+
+查看容器ip
+
+docker inspect 容器名称或 id
